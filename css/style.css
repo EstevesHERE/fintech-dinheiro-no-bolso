@@ -1,0 +1,38 @@
+body {
+    background-color: #ffd49f !important;
+    overflow: hidden;
+}
+
+input {
+    border-radius: 0 !important;
+    border-color: #ffd49f !important;
+    color: #F19D37 !important;
+    height: 55px;
+    border: 2px solid #F9AA4B !important;        
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #F19D37;
+    opacity: 1; /* Firefox */
+}
+
+#inputLogin {
+    margin-top: 50px;    
+}
+
+#inputRegistrar {
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon, p {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+    #imagem {
+        margin-top: 200px;
+    }
+    
+}
